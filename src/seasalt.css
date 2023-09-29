@@ -1,0 +1,166 @@
+body {
+  font-family: "Computer Modern Sans", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, helvetica neue, helvetica, roboto, noto, segoe ui, arial, sans-serif; */
+
+  /* background-color: #DCDCDC; */
+
+  background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(./sea-beach-sand.avif);
+
+  /* background-blend-mode: soft-light; */
+
+  /* background-repeat: no-repeat; */
+  /* background-image: url(./white-plain.avif); */
+  /* background-image: url(./brown-sand.avif); */
+  /* background-image: url(./gray-concrete.avif); */
+  /* background-image: url(./paperboard.avif); */
+  /* background-image: url(./sand-surface.avif); */
+  /* background-image: url(./sea-beach-sand.avif); */
+  /* background-image: url(./stone-concrete.avif); */
+  /* background-image: url(./); */
+  max-width: 600px;
+  margin: 24px auto;
+  line-height: 1.1em;
+  font-size: 1.2em;
+  font-weight: lighter;
+  /* border-left: 1px solid black; */
+  /* border-right: 1px solid #aaa; */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+b {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+  /* display: inline-block; */
+  display: table;
+  font-style: italic;
+  white-space: pre-line;
+  background-color: #00ffef40;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  font-size: 0.8em;
+  /* text-decoration: none; */
+  font-family: sans-serif;
+  text-transform: lowercase;
+  letter-spacing: .1em;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 50%;
+  margin-bottom: 20px;
+  /* color: #b7410e;
+  background-color: #b7410e; */
+  color: #00ffef40;
+  background-color: #00ffef40;
+}
+
+blockquote {
+  font-family: sans-serif;
+  /* font-weight: 700; */
+  /* color: white; */
+  /* color: #b7410e; */
+  padding: 10px;
+  border-top-right-radius: 50px;
+  /* border: solid black; */
+  box-shadow: inset;
+  
+  /* border-radius: 5px; */
+  /* background-color: #b7410e10; */
+  /* background-color: #04296531; */
+  background-color: black;
+  /* background-image: url("https://i.imgur.com/pjWcnJs.jpg"); */
+  /* background-image: url("https://i.imgur.com/tWmIaH8.jpeg"); */
+  /* background-image: url("https://images.wallpaperscraft.com/image/single/stone_rock_texture_184857_1366x768.jpg"); */
+  background: linear-gradient(#04296531, #04296531), url("./paper_texture.jpg");
+  /* background-image: url("./paper_texture.jpg"); */
+  /* background-image: url("./denim-texture.jpg"); */
+  /* background-repeat: no-repeat; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  /* background-color: #04296520; */
+}
+
+ol, ul {
+  display: table;
+  /* margin: 1px; */
+  padding: 1em;
+  padding-left: 1.5em;
+  /* padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 1em; */
+  /* padding-right: 2em; */
+  /* list-style: none; */
+  /* text-decoration: none; */
+  text-transform: lowercase;
+  border-top-right-radius: 50px;
+  /* box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.4); */
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./paper_texture.jpg");
+}
+
+/* ol::after, ul::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
+
+ul ul, ol ol, ul ol, ol, ul {
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* ol > li {
+  padding: 0px;
+}
+
+li {
+  padding: 0px;
+} */
+
+/* ul {
+  display: inline-block;
+  padding: 1.5em;
+  padding-left: 1em;
+  list-style: none;
+  border-top-right-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("./paper_texture.jpg");
+} */
+
+video {
+  display: block;
+  margin: 0 auto;
+  border: #00ffef40;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+@media only screen and (max-width: 824px) {
+  body {
+      margin: 24px 12px;
+      width: calc(100% - 24px);
+  }
+  /* iframe {
+      width: 90vw;
+      height: 56vw;
+  } */
+  /* .preWrapper {
+      width: 100%;
+  } */
+  pre {
+      width: 100%;
+      overflow-x: auto;
+  }
+}
